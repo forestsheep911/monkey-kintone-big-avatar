@@ -1,8 +1,8 @@
 {
-  "name": "monkey-xxx-xxx",
+  "name": "monkey-kintone-big-avatar",
   "version": "0.0.1",
-  "description": "write description here",
-  "main": "/dist/app.user.js",
+  "description": "放大用户头像",
+  "main": "./main.js",
   "scripts": {
     "start": "webpack serve --config ./config/webpack.dev.js",
     "dev": "webpack --watch --config ./config/webpack.dev.js",
@@ -12,22 +12,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourname/your-app.git"
+    "url": "git+https://github.com/forestsheep911/monkey-kintone-big-avatar"
   },
   "keywords": [
     "TamperMonkey",
     "TypeScript"
   ],
-  "author": "you",
+  "author": "bxu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yourname/your-app/issues"
+    "url": "https://github.com/forestsheep911/monkey-kintone-big-avatar/issues"
   },
-  "homepage": "https://github.com/yourname/your-app",
+  "homepage": "https://github.com/forestsheep911/monkey-kintone-big-avatar",
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
     "@types/tampermonkey": "^4.0.5",
+    "@kintone/dts-gen": "^6.1.11",
     "@typescript-eslint/eslint-plugin": "^5.19.0",
     "@typescript-eslint/parser": "^5.19.0",
     "babel-loader": "^8.2.4",

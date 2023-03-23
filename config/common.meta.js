@@ -7,7 +7,7 @@ module.exports = {
   author: pj.author,
   copyright: pj.author,
   license: pj.license,
-  match: ['https://*'],
+  match: ['https://*.cybozu.cn/k/*'],
   require: [],
   'run-at': 'document-end',
   supportURL: pj.bugs.url,
